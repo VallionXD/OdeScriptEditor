@@ -50,7 +50,7 @@ local COMMENT_PLAIN = "%-%-.-\n" --Completed Singleline-Comment
 local COMMENT_INCOMP = "%-%-.*" --Incompleted Singleline-Comment
 -- local TYPED_VAR = ":%s*([%w%?%| \t]+%s*)" --Typed variable, parameter, function
 
-local lang = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/language.lua")() -- fit new environment
+local lang = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/language.lua"))() -- fit new environment
 local lua_keyword = lang.keyword
 local lua_builtin = lang.builtin
 local lua_libraries = lang.libraries

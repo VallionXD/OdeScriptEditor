@@ -1,11 +1,11 @@
 local UIS =  game:GetService("UserInputService")
 
-local Lexer = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/Lexer.lua")()
-local LuaTable = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/LuaTable.lua")()
-local SignalModule = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/SignalModule.lua")()
-local GetTextBoxScrolling = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/GetTextBoxScrolling.lua")()
-local InitGui = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/InitGui.lua")()
-local TextBoxPlus = loadstring("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/TextBoxPlus.lua")()
+local Lexer = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/Lexer.lua"))()
+local LuaTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/LuaTable.lua"))()
+local SignalModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/SignalModule.lua"))()
+local GetTextBoxScrolling = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/GetTextBoxScrolling.lua"))()
+local InitGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/InitGui.lua"))()
+local TextBoxPlus = loadstring(game:HttpGet("https://raw.githubusercontent.com/VallionXD/OdeScriptEditor/main/Modules/TextBoxPlus.lua"))()
 
 -- local Storage = script.Storage
 local Storage = InitGui.storage()
